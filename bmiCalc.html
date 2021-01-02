@@ -62,6 +62,15 @@
               يا للهول! 😲          أكبر من أو يساوي 30
               لا أدري! 🤷🏻‍♀️                   أي شي ثاني
         */
+       let id = `height`
+       let height = document.getElementById(id).value;
+       let weihght = document.getElementById(`weight`).value;
+       let BMI = weihght/(height*height);
+       console.log(height)
+       if (BMI<20){ alert(`أنت نحيف جدا `)} 
+       if (BMI>20-29) { alert(`وزنك جيد `)}
+       if (Bmi=>30){alert (`OMG`)}
+       else { alert(`لا ادري `)}
       }
     </script>
   </body>
